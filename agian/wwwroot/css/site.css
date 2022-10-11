@@ -1,0 +1,280 @@
+@ {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   
+
+    background-image: url('../img/davies-designs-studio-q0vurjvloq4-unsplash.jpg');
+    background-color: antiquewhite;
+}
+
+div.main {
+    width: 740px;
+    margin: 45px auto 50px auto;
+}
+.required:after {
+    content: " *";
+    color: antiquewhite;
+}
+
+
+h3 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+div.register {
+    background-color: rgba(0,0,0,0.5);
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+form#register {
+    margin: 30px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.bordernone {
+    border: none;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 35px;
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    
+}
+input[type=email]#email {
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[type=number] {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[type=text]#city {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[type=text]#address {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[type=text]#addressp {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=Year]#year {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=Field]#field {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=Gender]#gender {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=Major]#major {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=Experience]#experience {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=WorkExperience]#workExperience {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=Duration]#duration {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[list=Skills]#skills {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[type=date]#dob {
+    color: grey;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[type=button]#submit {
+    width: 200px;
+    height: 35px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.3);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+#selectSkillsId {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 5px;
+    display: block;
+  
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+label, span, h2 {
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.input-group {
+    position: relative;
+    margin: 10px 10px 20px;
+}
+
+input[type=text], input[type=number], input[list=Skills], input[type=button], input[type=email], input[type=date], input[list=Gender], input[list=Year], input[list=Field], input[list=Duration], input[list=WorkExperience], input[list=Experience], input[list=Major] {
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+}
+
+    input[type=text], input[type=number], input[type=email], input[type=button], input[type=date]:focus {
+        outline: none;
+    }
+
+label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    font-family: sans-serif;
+}
+
+input[type=text]:focus ~ label,
+input[type=text]:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #4285f4;
+    font-family: sans-serif;
+}
+
+.vehicl {
+    height: 8px;
+    width: 16px;
+}
+
